@@ -1,0 +1,94 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.parallax {
+  background-color: #185899;
+  background-image: url(images/mars.jpg);
+  background-position: center -90px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  padding: 150px;
+}
+
+.navbar {
+  background-color: #d98452 !important;
+  padding-right: 100px;
+}
+
+.nav-link {
+  color: #fff !important;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  opacity: 0.5;
+}
+
+.navbar-brand {
+  cursor: default;
+}
+
+.logo {
+  margin-left: 50px;
+}
+
+.btn {
+  background-color: #d98452;
+  color: #fff;
+  border: none;
+}
+
+.btn:visited {
+  border: none !important;
+}
+
+.card {
+  padding: 20px;
+}
+
+.card img {
+  border-radius: 2px !important;
+  width: 13rem;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Изображение полностью адаптивно */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+#totop {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  padding: 0px 0 15px 7px;
+  width: 60px;
+  height: 60px;
+  background-color: #d98452;
+  border-radius: 50%;
+  font-size: 40px;
+  color: #fff;
+  z-index: 9999;
+  box-sizing: border-box;
+  opacity: 0;
+}
+
+.arrow {
+  transition: 0.5s;
+  rotate: 180deg;
+  margin-bottom: 15px;
+  margin-left: 3px;
+}
+
+.arrow:hover {
+  opacity: 0.5;
+}
+
+.fab {
+  color: #d98452;
+}
